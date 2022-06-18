@@ -2,7 +2,6 @@ import './App.css';
 import React from 'react';
 
 
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -20,11 +19,11 @@ class App extends React.Component {
      let {name, mass, hair_color, skin_color} = this.state.people
     return (
       <div className ='container'>
-        <h1> Starwars API </h1>;
-        <p> name: <span className='power'>{name}</span> </p>;
-        <p> mass: <span>{mass}</span> </p>;
-        <p> hair color: <span>{hair_color}</span> </p>;
-        <p> skin_color: <span>{skin_color}</span> </p>;
+        <h1> Starwars API </h1>
+        <p> name: <span className='power'>{name}</span> </p>
+        <p> mass: <span>{mass}</span> </p>
+        <p> hair color: <span>{hair_color}</span> </p>
+        <p> skin_color: <span>{skin_color}</span> </p>
       </div>
       
     );
